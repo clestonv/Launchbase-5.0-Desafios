@@ -66,12 +66,12 @@ function getTransactionsCount() {
 }
 
 createTransaction({ type: 'credit', value: 50 });
-createTransaction({ type: "credit", value: 120 });
-createTransaction({ type: "debit", value: 80 });
-createTransaction({ type: "debit", value: 30 });
-createTransaction({ type: "debit", value: 22 });
-createTransaction({ type: "debit", value: 94 });
-createTransaction({ type: "credit", value: 100 });
+createTransaction({ type: 'credit', value: 120 });
+createTransaction({ type: 'debit', value: 80 });
+createTransaction({ type: 'debit', value: 30 });
+createTransaction({ type: 'debit', value: 22 });
+createTransaction({ type: 'debit', value: 94 });
+createTransaction({ type: 'credit', value: 100 });
 
 console.log(user.balance);
 
