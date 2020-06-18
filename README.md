@@ -47,6 +47,8 @@ Este repositório foi criado com o objetivo de mostrar minhas soluções dos des
   - [Desafio 1-4: Aplicação: Operações bancárias](https://github.com/Rocketseat/bootcamp-launchbase-desafios-01/blob/master/desafios/01-4-aplicacao-operacoes-bancarias.md) :heavy_check_mark:
     - [Operações bancárias](https://github.com/VitorGabrieldeOliveira/Launchbase-5.0-Desafios/blob/master/Desafios/1-introducao-a-programacao-web/desafio-1-4/banking-operations.js) :heavy_check_mark:
 - [Módulo 2 - Iniciando no Front-end](https://github.com/Rocketseat/bootcamp-launchbase-desafios-02) :construction: Em andamento :construction:
+  - [Desafio 2-1: Primeiro HTML](https://github.com/Rocketseat/bootcamp-launchbase-desafios-02/blob/master/desafios/02-1-primeiro-html.md) :heavy_check_mark:
+    - [Primeiro HTML](https://github.com/VitorGabrieldeOliveira/Launchbase-5.0-Desafios/blob/master/Desafios/2-iniciando-no-front-end/desafio-2-1) :heavy_check_mark:
 - [Módulo 3 - Iniciando no Back-end](https://github.com/Rocketseat/bootcamp-launchbase-desafios-03) :construction: Em andamento :construction:
 
 ## :memo: Licença
