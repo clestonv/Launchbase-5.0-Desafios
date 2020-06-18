@@ -15,7 +15,7 @@ function createTransaction(transaction) {
 }
 
 function getHigherTransactionByType(transactionType) {
-  let higherTransaction = {
+  const higherTransaction = {
     type: transactionType,
     value: 0
   };
