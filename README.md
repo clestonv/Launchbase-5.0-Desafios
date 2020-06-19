@@ -49,6 +49,8 @@ Este repositório foi criado com o objetivo de mostrar minhas soluções dos des
 - [Módulo 2 - Iniciando no Front-end](https://github.com/Rocketseat/bootcamp-launchbase-desafios-02) :construction: Em andamento :construction:
   - [Desafio 2-1: Primeiro HTML](https://github.com/Rocketseat/bootcamp-launchbase-desafios-02/blob/master/desafios/02-1-primeiro-html.md) :heavy_check_mark:
     - [Primeiro HTML](https://github.com/VitorGabrieldeOliveira/Launchbase-5.0-Desafios/blob/master/Desafios/2-iniciando-no-front-end/desafio-2-1) :heavy_check_mark:
+  - [Desafio 2-2: Página de descrição](https://github.com/Rocketseat/bootcamp-launchbase-desafios-02/blob/master/desafios/02-2-pagina-descricao.md) :heavy_check_mark:
+    - [Página de descrição](https://github.com/VitorGabrieldeOliveira/Launchbase-5.0-Desafios/blob/master/Desafios/2-iniciando-no-front-end/desafio-2-2) :heavy_check_mark:
 - [Módulo 3 - Iniciando no Back-end](https://github.com/Rocketseat/bootcamp-launchbase-desafios-03) :construction: Em andamento :construction:
 
 ## :memo: Licença
