@@ -1,0 +1,214 @@
+:root {
+  --color-launchbase: #fd951f;
+  --color-starter: #7159c1;
+  --color-gostack: #04d361;
+}
+
+header {
+  background-color: rgb(24, 22, 27);
+  border: 0;
+  height: 80px;
+  padding: 0;
+}
+
+header .header-content {
+  max-width: 1400px;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+header .logo a {
+  margin: 0;
+}
+
+header .logo a img {
+  margin-top: 10px;
+}
+
+header .profile {
+  width: 22%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .profile i {
+  color: #b3b3b3;
+  font-size: 24px;
+}
+
+header .profile .profile-content {
+  display: flex;
+}
+
+header .profile .profile-content-text {
+  margin-top: 6px;
+  margin-right: 20px;
+}
+
+header .profile h2,
+header .profile p {
+  color: #fff;
+}
+
+header .profile h2 {
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 26px;
+}
+
+header .profile p {
+  font-size: 12px;
+  text-align: right;
+  color: #929292;
+}
+
+header .profile img {
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid #7159c1;
+}
+
+.content {
+  max-width: 1350px;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 30px;
+}
+
+.card {
+  height: 640px;
+  background: url('https://skylab.rocketseat.com.br/static/media/FeaturedCardBg.40a7d53e.png');
+  background-color: rgba(46, 49, 71, 0.1);
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  transition: 300ms;
+}
+
+.card span {
+  height: 48px;
+  width: 48px;
+  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-weight: bold;
+  margin-top: 60px;
+  margin-bottom: 100px;
+}
+
+.card span.starter-number {
+  border: 2px solid var(--color-starter);
+  color: var(--color-starter);
+}
+
+.card span.launchbase-number {
+  border: 2px solid var(--color-launchbase);
+  color: var(--color-launchbase);
+}
+
+.card span.gostack-number {
+  border: 2px solid var(--color-gostack);
+  color: var(--color-gostack);
+}
+
+.card p {
+  color: #9e9e9e;
+  max-width: 63%;
+  text-align: center;
+  margin-top: 60px;
+  line-height: 26px;
+}
+
+.card p strong.starter {
+  color: var(--color-starter);
+}
+
+.card p strong.launchbase {
+  color: var(--color-launchbase);
+}
+
+.card p strong.gostack {
+  color: var(--color-gostack);
+}
+
+.card:hover {
+  margin-top: -10px;
+}
+
+.card.starter:hover {
+  border: 2px solid var(--color-starter);
+}
+
+.card.launchbase:hover {
+  border: 2px solid var(--color-launchbase);
+}
+
+.card.gostack:hover {
+  border: 2px solid var(--color-gostack);
+}
+
+.card span,
+.card img,
+.card p {
+  pointer-events: none;
+}
+
+.modal-overlay {
+  background-color: rgba(0, 0, 0, 0.7);
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  visibility: hidden;
+}
+
+.modal {
+  width: 80%;
+  height: 80%;
+  position: relative;
+  background-color: #fff;
+}
+
+.modal .close-modal {
+  color: var(--color-gostack);
+  position: absolute;
+  right: 30px;
+  top: 8px;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.modal .maximize-modal {
+  color: var(--color-gostack);
+  position: absolute;
+  right: 70px;
+  top: 8px;
+  cursor: pointer;
+  z-index: 998;
+}
+
+.modal-overlay.active {
+  visibility: visible;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+}
